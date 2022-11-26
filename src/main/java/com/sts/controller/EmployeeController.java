@@ -26,6 +26,12 @@ public class EmployeeController {
 		return employeeReposirtory.findAll();
 	}
 	
+	@GetMapping("/employeess")
+	public List<Employee> getEmployees()
+	{
+		
+		return employeeReposirtory.findAll();
+	}
 	
 	
 	
