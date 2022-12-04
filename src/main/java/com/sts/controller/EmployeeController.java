@@ -71,4 +71,12 @@ public class EmployeeController {
 		
 		System.out.println("hello");
 	}
+	
+	@PutMapping("/timepass1")
+	public void timepass1()
+	{
+		
+		System.out.println("hello");
+	}
+	
 }
