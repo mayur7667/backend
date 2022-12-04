@@ -64,4 +64,11 @@ public class EmployeeController {
 		 return ResponseEntity.ok(UpdatedEmployeee);
 		
 	}
+	
+	@PutMapping("/timepass")
+	public void timepass()
+	{
+		
+		System.out.println("hello");
+	}
 }
